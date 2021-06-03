@@ -1,9 +1,21 @@
 {
-  "name": "tooling",
-  "version": "1.0.0",
-  "description": "Template repository to manage dev toolings",
-  "main": "index.js",
-  "author": "Thomas Delcros <delcrosthomas@gmail.com>",
-  "license": "MIT",
-  "private": false
+    "name": "tooling",
+    "version": "1.0.0",
+    "description": "Template repository to manage dev toolings",
+    "main": "index.js",
+    "author": "Thomas Delcros <delcrosthomas@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.26.0",
+        "@typescript-eslint/parser": "^4.26.0",
+        "eslint": "^7.27.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "prettier": "^2.3.0",
+        "typescript": "^4.3.2"
+    },
+    "scripts": {
+        "lint": "eslint . --ext .ts"
+    }
 }
