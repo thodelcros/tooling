@@ -1,0 +1,9 @@
+{
+  "name": "tooling",
+  "version": "1.0.0",
+  "description": "Template repository to manage dev toolings",
+  "main": "index.js",
+  "author": "Thomas Delcros <delcrosthomas@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
